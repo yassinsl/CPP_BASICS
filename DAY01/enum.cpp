@@ -6,13 +6,13 @@
 /*   By: ylahssin <ylahssin@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/14 12:59:42 by ylahssin          #+#    #+#             */
-/*   Updated: 2025/06/14 13:41:20 by ylahssin         ###   ########.fr       */
+/*   Updated: 2025/06/14 14:02:24 by ylahssin         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <iostream>
 using namespace std;
-enum var:char{AND=10, OR, SL}; //size enumaration var is 1;
+enum var:char{AND=10, OR= 33, SL}; //size enumaration var is 1;
 
 int main(void)
 {
