@@ -1,30 +1,27 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   big_namespace.cpp                                  :+:      :+:    :+:   */
+/*   anonymous_namespace.cpp                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: ylahssin <ylahssin@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/06/16 09:15:11 by ylahssin          #+#    #+#             */
-/*   Updated: 2025/06/16 09:40:24 by ylahssin         ###   ########.fr       */
+/*   Created: 2025/06/16 09:33:45 by ylahssin          #+#    #+#             */
+/*   Updated: 2025/06/16 09:59:08 by ylahssin         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <iostream>
-
 using namespace std;
-namespace  biiiiiiiiiiiiiiiiiiiiiiiiiiiiiiig_naaaaaaaaaame
-		return(cout << "Just love Nvim :)" << endl, 1);	
-	
-	int ft_strlen(string str)
+int value = 333;
+namespace{
+	int is_digit(int c)
 	{
-		int i = -1;
-		while(str[++i]);
-		return(i);
+		return(c >= 0 && c <= 9);
 	}
 }
-namespace sh = biiiiiiiiiiiiiiiiiiiiiiiiiiiiiiig_naaaaaaaaaame;
 int main(void)
 {
-	cout << "lenght value " <<sh::ft_strlen("Yassinlahssini")<< endl;
+	cout << "test: " << is_digit(0) << endl;
+	cout << "global name space: " << ::value << endl;
+	::std::cout << "Last One";
 }
