@@ -6,11 +6,12 @@
 /*   By: ylahssin <ylahssin@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/16 08:15:39 by ylahssin          #+#    #+#             */
-/*   Updated: 2025/06/16 09:03:53 by ylahssin         ###   ########.fr       */
+/*   Updated: 2025/06/16 09:05:38 by ylahssin         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <iostream>
+
 using namespace std;
 namespace my_std{
 	char *convert_up(char *str)
