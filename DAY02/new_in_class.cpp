@@ -3,7 +3,7 @@
 using namespace std;
 class Box{
     public:
-        int a;
+        int a = 0;
         int b;
     int add(int a, int b){
       this->a  = a;
@@ -23,4 +23,5 @@ int main(void)
 {
   Box *obj = new Box;
   obj->print_content();
+  delete obj;
 }
