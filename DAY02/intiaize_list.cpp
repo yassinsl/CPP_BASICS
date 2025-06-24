@@ -4,7 +4,7 @@ class Class{
       private:
           int y,x;
       public:
-         Class(int y, int x): x(x) ,y(y) {}
+         Class(int y, int x): x{x} ,y(y) {}
         void print_content()
         {
               cout << "value is :" << this->x << " and " << this->y << endl;
